@@ -5,7 +5,6 @@
 // @description    Add a filter to hide non-participants from favs only standings table on AtCoder.
 // @description:ja お気に入りの順位表に不参加者を隠すフィルターを追加します。
 // @author         Gai
-// @homepage       https://github.com/Gai-H
 // @source         https://github.com/Gai-H/atcoder-non-participant-hider
 // @match          https://atcoder.jp/*standings*
 // @exclude        https://atcoder.jp/*standings/json
