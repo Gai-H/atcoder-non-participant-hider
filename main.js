@@ -77,10 +77,9 @@ const hideNonParticipants = () => {
   const standingsTrs = standingsTbody.children;
   for (const row of standingsTrs) {
     const rankTd = row.children[0];
-    if (rankTd.innerText !== "-") continue;
-    if (theCheckbox.checked) {
+    if (theCheckbox.checked && rankTd.innerText === "-") {
       row.classList.add("hidden");
-    } else {
+    } else if (!theCheckbox.checked || (theCheckbox.checked && rankTd.innerText !== "-")) {
       row.classList.remove("hidden");
     }
   }
