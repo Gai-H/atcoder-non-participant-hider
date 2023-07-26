@@ -40,7 +40,7 @@ const bodyObserver = new MutationObserver((_, observer) => {
 
   theCheckbox = document.getElementById(CHECKBOX_ID);
   theCheckbox.disabled = !favOnlyCheckbox.checked;
-  theCheckbox.checked = localStorage.getItem(CHECKBOX_ID) ?? true;
+  theCheckbox.checked = JSON.parse(localStorage.getItem(CHECKBOX_ID) ?? "true");
   theCheckbox.addEventListener("change", onTheCheckboxChange);
 
   standingsTbody = document.getElementById("standings-tbody");
