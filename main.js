@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           AtCoder Non-Participant Hider
 // @namespace      https://github.com/Gai-H/atcoder-non-participant-hider
-// @version        1.1
+// @version        1.2
 // @description    Add a filter to hide non-participants from favs only standings table on AtCoder.
 // @description:ja お気に入りの順位表に不参加者を隠すフィルターを追加します。
 // @author         Gai
